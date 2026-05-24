@@ -48,7 +48,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           
-            href={SITE.purchaseUrl}
+           href={SITE.purchaseUrl}
             className="group relative px-6 py-3 rounded-xl bg-white text-black font-medium text-sm flex items-center gap-2 transition-all hover:bg-zinc-200 active:scale-95 shadow-lg shadow-white/5"
           >
             View licenses
