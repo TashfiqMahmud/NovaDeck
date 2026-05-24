@@ -5,9 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Aether.AI — Premium Next.js SaaS Landing Template",
-  description:
-    "Dark-mode SaaS landing page template with Next.js, TypeScript, Tailwind CSS, and antigravity animations. Ready to rebrand and sell.",
+  title: "NovaDeck - Premium Next.js SaaS Landing Template",
+  description: "Dark-mode SaaS landing page template with Next.js, TypeScript, Tailwind CSS, and antigravity animations. Ready to rebrand and sell.",
   keywords: [
     "Next.js template",
     "SaaS landing page",
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
     "dark mode",
   ],
   openGraph: {
-    title: "Aether.AI — Premium SaaS Landing Template",
+    title: "NovaDeck - Premium SaaS Landing Template",
     description: "Ship a stunning AI SaaS landing page in hours. One-time license.",
     type: "website",
   },
