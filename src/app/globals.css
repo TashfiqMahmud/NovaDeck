@@ -1,4 +1,4 @@
-echo '@tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -9,4 +9,4 @@ html {
 body {
   background-color: #030303;
   color: #fafafa;
-}' > src/app/globals.css
+}
