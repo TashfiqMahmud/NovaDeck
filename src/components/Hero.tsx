@@ -25,7 +25,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl text-center mx-auto mt-12">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs text-zinc-400 mb-6">
           <Sparkles className="w-3.5 h-3.5 text-purple-400" />
-          <span>Premium template · Ship in hours, not weeks</span>
+          <span>Premium template - Ship in hours, not weeks</span>
         </div>
         <h1 className="text-4xl md:text-7xl font-bold tracking-tight text-white mb-6">
           Launch your AI SaaS <br />
@@ -34,4 +34,18 @@ export default function Hero() {
           </span>
         </h1>
         <p className="text-zinc-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-          {SITE.tagline}. Next.js, Tailwind, and antigravity animations — r
+          {SITE.tagline}. Next.js, Tailwind, and antigravity animations - ready to rebrand, deploy, or resell to your clients.
+        </p>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href={SITE.purchaseUrl} className="group relative px-6 py-3 rounded-xl bg-white text-black font-medium text-sm flex items-center gap-2 transition-all hover:bg-zinc-200 active:scale-95 shadow-lg shadow-white/5">
+            View licenses
+            <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+          </a>
+          <a href="#showcase" className="px-6 py-3 rounded-xl bg-zinc-900 text-zinc-300 border border-zinc-800 text-sm font-medium transition-all hover:bg-zinc-800 hover:text-white active:scale-95">
+            See what is included
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
