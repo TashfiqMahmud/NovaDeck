@@ -17,7 +17,11 @@ export default function Hero() {
         <div className="absolute inset-8 rounded-full border border-purple-500/20 animate-[spin_40s_linear_infinite]" />
         <div className="absolute inset-16 rounded-full border border-cyan-500/15 animate-[spin_25s_linear_infinite_reverse]" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-gradient-to-tr from-purple-500 via-fuchsia-500 to-cyan-400 opacity-80 shadow-[0_0_80px_rgba(124,42,237,0.5)] animate-[bounce_8s_ease-in-out_infinite]" />
+          <img
+            src="/hero-sphere.png"
+            alt="NovaDeck Hero"
+            className="w-48 h-48 md:w-80 md:h-80 object-contain animate-[bounce_8s_ease-in-out_infinite]"
+          />
         </div>
       </div>
 
@@ -43,14 +47,14 @@ export default function Hero() {
           {SITE.tagline}. Next.js, Tailwind, and antigravity animations — ready to rebrand, deploy, or resell to your clients.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
+          
             href={SITE.purchaseUrl}
             className="group relative px-6 py-3 rounded-xl bg-white text-black font-medium text-sm flex items-center gap-2 transition-all hover:bg-zinc-200 active:scale-95 shadow-lg shadow-white/5"
           >
             View licenses
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
-          <a
+          
             href="#showcase"
             className="px-6 py-3 rounded-xl bg-zinc-900 text-zinc-300 border border-zinc-800 text-sm font-medium transition-all hover:bg-zinc-800 hover:text-white active:scale-95"
           >
